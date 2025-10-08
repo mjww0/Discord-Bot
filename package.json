@@ -1,0 +1,21 @@
+{
+  "name": "orbital-network-studio-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "register:guild": "node src/registry.js guild",
+    "register:global": "node src/registry.js global"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^2.4.0",
+    "@discordjs/voice": "^0.18.0",
+    "better-sqlite3": "^9.6.0",
+    "discord-player": "^6.7.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "ms": "^2.1.3"
+  }
+}
